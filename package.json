@@ -1,0 +1,19 @@
+{
+  "name": "bable-parser-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/konojunya/bable-parser-sample.git",
+  "author": "konojunya <junya03dance@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node script.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/generator": "^7.4.4",
+    "@babel/node": "^7.4.5",
+    "@babel/parser": "^7.4.5",
+    "@babel/traverse": "^7.4.5",
+    "@babel/types": "^7.4.4"
+  }
+}
